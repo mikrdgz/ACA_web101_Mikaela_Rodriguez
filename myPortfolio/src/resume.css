@@ -14,5 +14,25 @@ main {
 
     height: 100%;
     border: yellow solid 1px;
+
+}
+
+article {
+    border: pink solid 5px;
+}
+
+#exp {
+    width: 100%;
+    border: blue 2px solid;
+}
+
+#edu {
+    width: 100%;
+    border: orange 2px solid;
+}
+footer {
+    display: flex;
+    border: green 1px solid;
+    height: 500px;
 }
 
