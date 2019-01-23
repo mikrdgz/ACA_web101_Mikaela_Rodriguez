@@ -18,6 +18,7 @@ header {
 
 h1 {
     font-size: 5rem;
+    
 
 }
 
@@ -35,6 +36,12 @@ main {
 
 }
 
+#column p {
+    text-align: center;
+    color: dimgray;
+    font-size: 3rem;
+}
+
 #column img {
     width: 45%; 
     padding-bottom: 1%; 
@@ -48,6 +55,11 @@ main {
 
 #column ul {
     padding: 10px;
+}
+
+#column li {
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 article {
