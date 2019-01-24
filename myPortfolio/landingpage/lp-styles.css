@@ -1,0 +1,29 @@
+header {
+    display: inline-block;
+    position: fixed;
+
+    width: 100%;
+    background-color: whitesmoke;
+    height: 10%;
+}
+
+body {
+    display: flex;
+    border: red solid 10px;  
+    flex-direction: row;  
+    
+}
+
+aside {
+vertical-align: middle;
+border: green 10px solid;
+height:500px;    
+width: 300px;
+
+}
+
+ #hero {
+     border: pink 5px solid;
+     width: 100%;
+
+ }
