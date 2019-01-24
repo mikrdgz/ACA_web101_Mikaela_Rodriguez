@@ -29,8 +29,8 @@ main {
 #column {
     flex-direction: column;
     height: 100%;
-    border: yellow solid 1px;
     font-family: 'Noto Sans', sans-serif;
+    padding: 20px;
     
 
 
@@ -41,6 +41,7 @@ main {
     color: salmon;
     font-size: 3rem;
     font-family: 'Staatliches', cursive;
+    padding-top: 1rem;
 }
 
 
@@ -58,7 +59,10 @@ main {
 
 #column ul {
     padding: 20px;
+    list-style-type: circle;
+
 }
+
 
 #column li {
 padding-top: 10px;
@@ -77,17 +81,14 @@ padding-bottom: 10px;
 }
 
 article {
-    border: pink solid 5px;
 }
 
 #exp {
     width: 100%;
-    border: blue 2px solid;
 }
 
 #edu {
     width: 100%;
-    border: orange 2px solid;
 }
 footer {
     display: flex;
