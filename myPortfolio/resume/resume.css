@@ -1,15 +1,28 @@
 
 header {
     display: flex;
-    width: 100%;
+    width: auto;
     background-color: salmon;
     color: #ffffff;
     font-family: 'Staatliches' cursive;
-    padding: 5px;
+    padding: 10px;
     padding-bottom: 30px;
-
+    justify-content: space-between;
+    
 }
 
+header section  {
+
+    flex-flow: row;
+    overflow: hidden;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+header section img {
+    width: 30px !important;
+    height: 30px !important;
+}
 
 h1 {
     font-size: 4rem;
@@ -32,9 +45,8 @@ main {
     font-family: 'Noto Sans', sans-serif;
     padding: 20px;
     
-
-
 }
+
 
 #column p {
     text-align: center;
