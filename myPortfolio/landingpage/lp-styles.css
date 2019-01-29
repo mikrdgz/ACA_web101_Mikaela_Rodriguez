@@ -1,3 +1,6 @@
+a {
+    text-decoration: none;
+}
 header {
     display: flex;
     position: fixed;
@@ -31,6 +34,23 @@ header .menu li {
 
 }
 
+header .menu li a {
+    color: black;
+  }
+
+  
+  header .menu li a:visited {
+    color: darkcyan;
+  }
+  
+  header .menu li a:hover {
+    color: rgb(179, 213, 245);
+  }
+  
+  header .menu li a:active {
+    color: rgb(179, 213, 245);
+  }
+
 
 body {
     display: flex;
@@ -38,11 +58,12 @@ body {
 }
 
 aside {
-    display: flex;
+display: flex;
 height: 900px;
 width: 300px;
 flex-direction: column;
 justify-content: center;
+background-color: rgba(26, 25, 25, 0.945);
 }
 
 aside main {
@@ -51,7 +72,12 @@ aside main {
 
 aside main p {
     padding: 10px;
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    font-size: 1rem;
+
 }
+
 
  #hero {
      width: 100%;
@@ -60,3 +86,16 @@ aside main p {
   background-repeat: no-repeat;
 
  }
+
+ @media only screen and (max-width: 600px) {
+    aside {
+display: none;    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    #hero {
+height: 1000px; 
+    }
+  }
+
+ 
