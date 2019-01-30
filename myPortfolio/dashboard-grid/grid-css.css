@@ -7,6 +7,16 @@ body {
    body a {
        text-decoration: none;
    }
+
+   .container {
+    display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-rows: .2fr 1fr 1fr;
+        grid-template-areas: 
+          "header header  header"
+          "nav    main     aside"
+          "form    banner   aside"
+       }
 header {
     background-color: rgb(19, 18, 18, 0.7);
     min-height: 50px;
@@ -52,22 +62,16 @@ nav ul {
       opacity: 0.9;
       padding: 10px;
   }
-  .banner {
-    background-color: lavender;
-    grid-area: banner;
+
+  form {
+      grid-area: form;
   }
-  footer {
-    background-color: khaki;
-    grid-area: footer;
+  .banner {
+    grid-area: banner;
+    padding: 10px;
   }
   
-  .container {
-    display: grid;
-        grid-template-columns: .5fr 4fr .5fr;
-        grid-template-areas: 
-          "header header  header"
-          "nav    main     aside"
-          "nav    banner   aside"
-       }
+  
+  
   
        
