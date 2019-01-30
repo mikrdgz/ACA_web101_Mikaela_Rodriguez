@@ -1,0 +1,73 @@
+body {
+    background:  url('https://images.unsplash.com/photo-1496284045406-d3e0b918d7ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80') center;
+    font-family: 'Heebo', sans-serif;
+    background-position: center bottom; 
+   }
+
+   body a {
+       text-decoration: none;
+   }
+header {
+    background-color: rgb(19, 18, 18, 0.7);
+    min-height: 50px;
+    padding: 10px;
+    color: white;
+    grid-area: header;
+    font-size: 2rem;
+  }
+  main {
+    min-height: 500px;
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  main p {
+    padding: 30px;
+    opacity: 0.8  
+}
+
+main h1 {
+    color: white;
+    font-size: 5rem;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+  nav {
+    background-color: rgba(250,128,114, 0.8);
+    grid-area: nav;
+}
+
+nav ul {
+    padding: 15px;
+}
+  aside {
+    background-color: rgba(250,128,114, 0);
+    grid-area: aside;
+  }
+
+  aside iframe {
+      opacity: 0.9;
+      padding: 10px;
+  }
+  .banner {
+    background-color: lavender;
+    grid-area: banner;
+  }
+  footer {
+    background-color: khaki;
+    grid-area: footer;
+  }
+  
+  .container {
+    display: grid;
+        grid-template-columns: .5fr 4fr .5fr;
+        grid-template-areas: 
+          "header header  header"
+          "nav    main     aside"
+          "nav    banner   aside"
+       }
+  
+       
