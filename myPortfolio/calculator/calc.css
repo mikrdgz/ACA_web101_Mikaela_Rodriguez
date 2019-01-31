@@ -1,0 +1,43 @@
+ul {
+list-style: none;
+}
+
+body {
+    justify-content: center;
+    vertical-align: middle;
+}
+
+ .container {
+    justify-content: center;
+    border: black solid 1px;
+    flex-flow: row wrap;
+    display: flex;
+    width: 30%;
+    height: 50%;
+    
+   
+}
+
+.container input {
+
+    width: 80%
+    height: 30px;
+    border: yellow solid 1px;
+}
+
+.container div {
+    text-align: center;
+    border: purple solid 1px;
+    height: 50px;
+    width: 100px;
+}
+
+.container input {
+
+    width: 80%;
+    height: 30px;
+    border: yellow solid 1px;
+}
+
+
+
