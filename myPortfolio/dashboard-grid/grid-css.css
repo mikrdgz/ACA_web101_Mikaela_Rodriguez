@@ -6,25 +6,40 @@ body {
 
    body a {
        text-decoration: none;
+       color: black;
+      
    }
 
+   body a:hover {
+       color: white;
+   }
+
+   header {
+    background-color: rgb(19, 18, 18, 0.7);
+    min-height: 50px;
+    padding: 5px;
+    color: white;
+    grid-area: header;
+    font-size: 2rem;
+  }
+
    .container {
-    display: grid;
-        grid-template-columns: 1fr 4fr 1fr;
+        display: grid;
+        grid-template-columns: 1.3fr 4fr 1fr;
         grid-template-rows: .2fr 1fr 1fr;
         grid-template-areas: 
           "header header  header"
           "nav    main     aside"
           "form    banner   aside"
        }
-header {
-    background-color: rgb(19, 18, 18, 0.7);
-    min-height: 50px;
-    padding: 10px;
-    color: white;
-    grid-area: header;
-    font-size: 2rem;
-  }
+
+       .container nav ul li{
+           font-size: 1.5rem;
+           padding: 10px;
+       }
+
+
+
   main {
     min-height: 500px;
     grid-area: main;
@@ -46,12 +61,17 @@ main h1 {
 
 }
   nav {
-    background-color: rgba(250,128,114, 0.8);
+    background-color: rgba(216, 47, 89, 0.637);
     grid-area: nav;
 }
 
 nav ul {
     padding: 15px;
+}
+
+nav iframe {
+    opacity: 0.9;
+
 }
   aside {
     background-color: rgba(250,128,114, 0);
@@ -73,5 +93,13 @@ nav ul {
   
   
   
-  
-       
+  @media only screen and (max-width: 600px) {
+    .container {
+            display: flex;
+            flex-direction: column;
+           }
+
+    nav iframe {
+        display: none!important;
+    }
+  }       
