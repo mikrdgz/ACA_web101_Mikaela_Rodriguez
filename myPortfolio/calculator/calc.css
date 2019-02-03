@@ -15,12 +15,10 @@ body {
     flex-flow: row wrap;
     display: flex;
     border-radius: 50px;
-    width: 30%;
+    width: 30rem;
     height: 50%;
     padding: 10px;
     background-color: rgb(252, 243, 224);
-
-
 }
 
 .container input {
@@ -31,7 +29,7 @@ body {
     border-radius: 10px;
     background-color: rgba(126, 106, 90, 0.644);
     text: grey;
-    margin-top: .5%;
+    margin: 5%;
 
 }
 
