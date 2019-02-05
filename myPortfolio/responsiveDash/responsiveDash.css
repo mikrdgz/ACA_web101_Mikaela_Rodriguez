@@ -99,7 +99,28 @@ nav iframe {
             flex-direction: column;
            }
 
-    nav iframe {
+    nav  {
         display: none!important;
     }
-  }       
+    aside iframe {
+        width: 100%;
+    }
+  }  
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      .container {
+        display: inline-block;
+      }
+
+      .banner {
+
+      }
+
+      nav iframe {
+        display: none!important;
+    }
+
+    aside iframe {
+        width: 100%;
+    }
+  }
