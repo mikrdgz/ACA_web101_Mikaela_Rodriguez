@@ -3,9 +3,75 @@ body {
 }
 
 header {
+height: 200px;
+display: flex;
+width: 100%;
+align-content: center;
+align-items: flex-end;
+flex-direction: row;
+border: red 2px solid;
+text-align: center;
 
 }
 
-menu {
+header .navi
+{
+    border: pink solid 1px;
+    width: 100%;
+
+
+}
+
+header span  {
+    align-items: flex-end;
+    border: green 2px solid;
+    width: 100%;
+    height: 20%;
+
     
+
 }
+
+.mustacchio {
+    height: 100px;
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    background-image: url("https://f271.https.cdn.softlayer.net/80F271/dal05.objectstorage.softlayer.net/v1/AUTH_b4a3a2ca-226e-4f3c-aef2-b5275f5900cc/cdn/preview/mustacheenthusiast/images/the-beacon.jpg");
+    height: 550px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+blockquote {
+    width: 30%;
+    height: 30%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+blockquote h2 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+blockquote p {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 10px;
+    margin: 7px 0px;
+    line-height: 100%;
+}
+
+.aside {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    border: orange;
+}
+
