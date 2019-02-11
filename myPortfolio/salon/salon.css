@@ -70,8 +70,23 @@ blockquote p {
 
 .aside {
     display: flex;
-    align-content: center;
-    flex-direction: column;
+    flex-direction: row;
     border: orange;
+    padding:;
+    border: green 1px solid;
+    align-content: space-around;
+
+
 }
+
+    .card {
+        display: flex;
+        flex-flow: column;
+        align-content: center;
+        border: orange 1px solid;
+        text-align: center;
+
+    }
+
+
 
