@@ -59,9 +59,7 @@ aside iframe {
 .cont {
   display: flex;
   width: 70%;
-  align-content: center;
   flex-direction: row;
-  vertical-align: middle;
 }
 
 span {
@@ -83,7 +81,6 @@ main {
 main h2 {
   padding-top: 50px;
   padding-bottom: 25px;
-
   font-size: 1.2rem;
 
 }
@@ -91,7 +88,6 @@ main h2 {
 main .cont2 {
   display: flex;
   width: 70%;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 
@@ -100,10 +96,13 @@ main .cont2 {
 form input {
   width: 100%;
   clear: both;
-  margin: 20px;
+  margin-bottom: 15px;
   padding: 10px;
+  border:black 1px solid;
 
 }
+
+
 
 input[name=message] {
   height: 150px;
