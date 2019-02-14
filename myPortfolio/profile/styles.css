@@ -1,8 +1,131 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
 header {
-  height: 900px;
+  display: flex;
+  height: 800px;
   width: 100%;
-  background: url("https://res.cloudinary.com/dxrjq1art/image/upload/v1549939214/assets/IMG_1824.jpg");
+  background:  
+    linear-gradient(
+    rgba(180, 108, 108, 0.10), 
+    rgba(255, 0, 0, 0.50)
+    ), 
+    url("https://res.cloudinary.com/dxrjq1art/image/upload/v1549939214/assets/IMG_1824.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  justify-content: center;
+  color: rgb(44, 44, 44);
+  
+}
+
+header h1 {
+  font-size: 1.2rem;
+
+}
+
+nav {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  padding-top: 30px;
+  
+}
+
+nav h1 {
+  padding-right: 300px;
+}
+
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  color: rgb(44, 44, 44);
+  vertical-align: middle;
+}
+
+aside iframe {
+  padding: 30px;
+}
+
+.cont {
+  display: flex;
+  width: 70%;
+  align-content: center;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+span {
+  padding: 30px;
+  line-height: 30px;
+  font-size: .8rem;
+}
+
+main {
+  background-color: rgb(243, 242, 242);
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h2 {
+  padding-top: 50px;
+  padding-bottom: 25px;
+
+  font-size: 1.2rem;
+
+}
+
+main .cont2 {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+form input {
+  width: 100%;
+  clear: both;
+  margin: 20px;
+  padding: 10px;
+
+}
+
+input[name=message] {
+  height: 150px;
+  
+}
+
+input[type=submit] {
+  width: 100px;
+  
+}
+
+input[type=reset] {
+width: 100px;  
+}
+
+footer {
+  display: flex;
+  background-color: rgb(243, 242, 242);
+  justify-content: center;
+  width: 100%;
+}
+
+footer img {
+  padding: 30px;
 }
