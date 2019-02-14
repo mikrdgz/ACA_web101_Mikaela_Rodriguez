@@ -28,17 +28,17 @@ nav {
   display: flex;
   width: 70%;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 5%;
   
 }
 
 nav h1 {
-  padding-right: 300px;
+  padding-right: 40%;
 }
 
 nav a {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: .5%;
+  padding-right: .5%;
   text-decoration: none;
   color: rgb(44, 44, 44);
 }
@@ -53,7 +53,7 @@ aside {
 }
 
 aside iframe {
-  padding: 30px;
+  padding: 4%;
 }
 
 .cont {
@@ -63,7 +63,7 @@ aside iframe {
 }
 
 span {
-  padding: 30px;
+  padding: 5%;
   line-height: 30px;
   font-size: .8rem;
 }
@@ -79,8 +79,8 @@ main {
 }
 
 main h2 {
-  padding-top: 50px;
-  padding-bottom: 25px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   font-size: 1.2rem;
 
 }
@@ -96,7 +96,7 @@ main .cont2 {
 form input {
   width: 100%;
   clear: both;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   padding: 10px;
   border:black 1px solid;
 
@@ -128,3 +128,18 @@ footer {
 footer img {
   padding: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+  header nav {
+    display: block;
+    }
+
+    main {
+      display: inline-block;
+      }
+
+      aside {
+        display: inline-block;
+      }
+  }
+
