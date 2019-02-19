@@ -96,8 +96,9 @@ body {
   main .cont2 {
     display: flex;
     width: 70%;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
   
   }
   
@@ -121,6 +122,10 @@ body {
      justify-content: center;
      box-shadow: 10px 10px 10px lightgrey;
 
+    }
+
+    details summary {
+      padding: 5px;
     }
   
   
