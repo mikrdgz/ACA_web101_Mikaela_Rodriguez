@@ -1,0 +1,29 @@
+
+
+.squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#single-square {
+    height: 100px;
+    width: 100px;
+    border: black solid 1px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#single-square:nth-child(odd):hover {
+    height: 200px;
+    width: 200px;
+
+}
+
+#single-square:nth-child(even):hover {
+    height: 50px;
+    width: 50px;
+    
+}
