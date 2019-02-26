@@ -13,17 +13,28 @@
     width: 100px;
     border: black solid 1px;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
+    transition-delay: 1s
+
 }
 
 #single-square:nth-child(odd):hover {
     height: 200px;
     width: 200px;
-
+    transition: 1s;
+    transform: translate(200%, 0) rotateZ(360deg) ;
 }
+    
+
+
 
 #single-square:nth-child(even):hover {
     height: 50px;
     width: 50px;
-    
+    transition: 1s;
+    transform: translate(-200%, 0) rotateZ(-360deg) ;
+
 }
+
+
+
