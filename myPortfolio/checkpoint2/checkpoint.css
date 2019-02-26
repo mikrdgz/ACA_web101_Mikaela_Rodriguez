@@ -1,0 +1,57 @@
+header {
+
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background: turquoise;
+    color: white;
+    font-size: 7rem;
+
+}
+
+footer {
+    display: flex;
+    background: gray;
+    color: white;
+    height: 100%;
+    justify-content: space-between;
+
+
+
+}
+
+.card {
+    display: flex;
+    width: 20%;
+    height: 90%;
+    flex-direction: column;
+    text-align: center;
+    margin: 5%;
+}
+
+.card h2 {
+    padding: 5px;
+    font-size: 3rem;
+}
+
+.card #flair-1 {
+    height: 40px;
+    width: 100%;
+    background: skyblue;
+}
+
+.card #flair-2 {
+    height: 40px;
+    width: 100%;
+    background: coral;
+}
+
+.card #flair-3 {
+    height: 40px;
+    width: 100%;
+    background: turquoise;
+}
