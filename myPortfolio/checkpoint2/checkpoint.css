@@ -1,3 +1,7 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
 header {
     display: flex;
     background: turquoise;
@@ -9,10 +13,10 @@ header img {
 }
 
 header a {
-    padding: 15px;
+    padding: 20px;
     text-decoration: none;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #main {
@@ -31,7 +35,8 @@ footer {
     background: gray;
     color: white;
     height: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 3%;
 
 }
 
@@ -41,16 +46,21 @@ footer {
     height: 90%;
     flex-direction: column;
     text-align: center;
-    margin: 5%;
+    line-height: 2rem;
 }
 
 .card:hover {
     transform: perspective(400px) translateZ(50px);
 }
 
+.card a {
+    text-decoration: none;
+    color: white;
+}
 .card h2 {
-    padding: 5px;
-    font-size: 3rem;
+    padding: 10px;
+    font-size: 2.5rem;
+    padding-top: 20px;
 }
 
 .card #flair-1 {
@@ -70,3 +80,17 @@ footer {
     width: 100%;
     background: turquoise;
 }
+
+@media only screen and (max-width: 650px) {
+      footer {
+          display: block;
+          
+      }
+
+      .card {
+          width: 80%;
+          padding: 20px;
+          margin: 0 auto;
+
+      }
+  }
