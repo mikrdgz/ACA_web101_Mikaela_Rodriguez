@@ -87,6 +87,10 @@ footer {
           
       }
 
+      footer iframe {
+          width: 100%;
+      }
+      
       .card {
           width: 80%;
           padding: 20px;
