@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.gameBoard {
+    display: flex;
+    height: 45%;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.gameBoard div {
+    border: black solid 1px;
+    height: 30vh;
+    width: 30vh;
+    
+}
