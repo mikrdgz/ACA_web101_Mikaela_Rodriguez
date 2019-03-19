@@ -91,9 +91,20 @@ nav iframe {
   }
   .banner {
     grid-area: banner;
-    padding: 10px;
+    display: flex;
+    align-content: center;
+    font-size: 2rem;
+  }
+
+  ol {
+    color: white;
+    width: 300px;
+    height: auto;
   }
   
+  form {
+    color: white;
+  }
   
   
   @media only screen and (max-width: 600px) {
