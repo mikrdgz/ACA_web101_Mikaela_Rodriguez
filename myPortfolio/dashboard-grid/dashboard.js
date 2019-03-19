@@ -8,6 +8,10 @@ window.onload = function() {
         "<br><strong>Your longitude: </strong>" + position.coords.longitude; 
       }
 
+    }
+
+const helloFunction = () => console.log('hi')
 
 
-  }
+
+

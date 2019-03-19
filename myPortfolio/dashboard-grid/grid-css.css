@@ -30,7 +30,7 @@ body {
         grid-template-areas: 
           "header header  header"
           "nav    main     aside"
-          "form    banner   aside"
+          "form   banner   aside"
        }
 
        .container nav ul li{
